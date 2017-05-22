@@ -26,6 +26,8 @@ PS C:\> Invoke-Phant0m
 
 [+] All done, you are ready to go!
 ```
+# Technical Details
+https://artofpwn.com/phant0m-killing-windows-event-log.html
 
 # Video
 [![PoC Video](https://i.ytimg.com/vi/PF0-tZWCmpc/maxresdefault.jpg)](https://www.youtube.com/watch?v=PF0-tZWCmpc)
