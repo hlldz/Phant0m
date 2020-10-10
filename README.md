@@ -27,9 +27,15 @@ PS C:\> Invoke-Phant0m
 [+] All done, you are ready to go!
 ```
 # Technical Details
-https://artofpwn.com/phant0m-killing-windows-event-log.html
+Phant0m: Killing Windows Event Log - https://artofpwn.com/2017/06/05/phant0m-killing-windows-event-log.html
 
-# Video
+## Video
 [![PoC Video](https://i.ytimg.com/vi/PF0-tZWCmpc/maxresdefault.jpg)](https://www.youtube.com/watch?v=PF0-tZWCmpc)
 
 
+# Acknowledges
+* Detecting in-memory attacks with Sysmon and Azure Security Center - https://azure.microsoft.com/tr-tr/blog/detecting-in-memory-attacks-with-sysmon-and-azure-security-center/
+* Experiments with Invoke-Phant0m - http://www.insomniacsecurity.com/2017/08/27/phant0m.html
+* Event Log Tampering Part 1: Disrupting the EventLog Service - https://medium.com/@7a616368/event-log-tampering-part-1-disrupting-the-eventlog-service-8d4b7d67335c
+* Flying under the radar - https://www.exploit-db.com/docs/english/45898-flying-under-the-radar.pdf?rss
+* Denetim ve Log'lamanın Elli Tonu - https://gallery.technet.microsoft.com/Denetim-ve-Loglamann-Elli-cbed0000
