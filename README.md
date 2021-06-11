@@ -1,7 +1,7 @@
 `NOTE: I'm finished the project and currently refactoring. I will release the project with a new version that includes new techniques soon. There will not be any maintenance for the PowerShell (in the "old" folder) version. `
 
 <p align="center">&nbsp;</p>
-<p align="center"><img src="https://raw.githubusercontent.com/hlldz/Phant0m/master/images/phant0m.png" alt="Phant0m" width="300"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/hlldz/Phant0m/master/images/phant0m.png" alt="Phant0m" width="220"></p>
 
 # Phant0m
 Windows Event Log Killer
