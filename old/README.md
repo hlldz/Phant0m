@@ -1,3 +1,5 @@
+`May 2, 2017 - Jun 11, 2021`
+
 # Invoke-Phant0m
 This script walks thread stacks of Event Log Service process (spesific svchost.exe) and identify Event Log Threads to kill Event Log Service Threads. So the system will not be able to collect logs and at the same time the Event Log Service will appear to be running.
 
