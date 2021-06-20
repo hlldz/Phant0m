@@ -44,6 +44,8 @@ You can use Phant0m both as a standalone EXE and as a Reflective DLL. Open the p
 
 Fork and inject method was used with `bdllspawn` in the execution type of Aggressor Script (phant0m.cna) for Cobalt Strike. If you want to inject Phant0m into your existing process and run it, you can review this project (https://github.com/rxwx/cs-rdll-ipc-example) and you can do it easily. You can also convert the code to DLL and then to Shellcode with [Donut](https://github.com/TheWover/donut).
 
+NOTE: The project only supports x64 architecture.
+
 ---
 
 ### Special Thanks to Those Who Mentioned Phant0m
